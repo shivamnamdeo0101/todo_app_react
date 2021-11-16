@@ -86,6 +86,7 @@ if(loading){
       firebase.firestore().collection("todo").doc(key).delete();
       alert("Todo Deleted");
     }
+    alert("Todo Deleted");
     
   }
 
